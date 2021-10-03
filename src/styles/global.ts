@@ -21,5 +21,6 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     color: var(--white);
     background-color: var(--gray-900);
+    scroll-behavior: smooth;
   }
 `
