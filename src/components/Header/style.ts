@@ -9,7 +9,12 @@ export const Container = styled.div<ContainerProps>`
   align-items: center;
   justify-content: space-between;
   height: 7rem;
-  margin: 0 10%;
+  margin: 1rem 10%;
+
+  img {
+    height: 10rem;
+    width: 10rem;
+  }
 
   button {
     background-color: transparent;

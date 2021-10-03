@@ -5,50 +5,45 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
   height: calc(100vh - 7rem);
-
-  img {
-    margin-left: 5rem;
-    height: 200px;
-    max-width: 100%;
-  }  
+  
+  > svg {
+    margin-top: 3rem;
+  }
 `
 
 export const Content = styled.div`
   display: flex;
-  align-items: center;
+  align-items: center;  
   justify-content: center;
+  margin-top: -3rem;
   height: 100%;
   width: 100%;
   background-color: var(--gray-700);
-  transform: skewY(-4deg);
-  transform-origin: 0%;
-
-  > div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 10%;
-    transform: skewY(4deg);
-  }
+  clip-path: polygon(0 23%, 100% 12%, 100% 100%, 0% 100%);
 `
 
 export const Info = styled.div`
-  
+  width: 100%;
+
   h1 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
   }
 
   p {
-    font-size: 1.4rem;
-    line-height: 2rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
   }
 `
 
 export const Links = styled.div`
   display: flex;
-  flex-direction: column;
-  margin-left: .5rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2rem;
 
   a {
     display: flex;
@@ -59,8 +54,12 @@ export const Links = styled.div`
     margin-bottom: 1rem;
 
     svg {
-      margin-right: 1rem;
       fill: var(--yellow);
+      margin-left: 1rem;
+ 
+      &:hover {
+        fill: var(--white);
+      }
     }
   }
 `

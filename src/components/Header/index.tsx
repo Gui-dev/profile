@@ -1,10 +1,18 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
+
 import { HiOutlineMenuAlt1, HiOutlineX } from 'react-icons/hi'
 
 import { Container } from './style'
 
 export const Header = () => {
+  const router = useRouter()
   const [isOpenMenu, setIsOpenMenu] = useState(false)
+
+  useEffect(() => {
+    setIsOpenMenu(false)
+  }, [router.asPath])
 
   const handleOpenMenu = () => {
     setIsOpenMenu(true)
@@ -16,7 +24,7 @@ export const Header = () => {
 
   return (
     <Container isOpenMenu={isOpenMenu}>
-      <h1>Logo</h1>
+      <img src="/images/logo.svg" alt="Algumas formas geometricas" />
       <div>
         <button onClick={ handleOpenMenu }>
           <HiOutlineMenuAlt1 size={ 32 } color="#FFF"/>
@@ -25,10 +33,18 @@ export const Header = () => {
           <button onClick={ handleCloseMenu }>
             <HiOutlineX size={ 32 } color="#FFF"/>
           </button>
-          <a href="#aboutme" onClick={ handleCloseMenu }>About Me</a>
-          <a href="#skills" onClick={ handleCloseMenu }>Skills</a>
-          <a href="#works" onClick={ handleCloseMenu }>Works</a>
-          <a href="#contact" onClick={ handleCloseMenu }>Contact Me</a>
+          <Link href="#aboutme">
+            <a href="#aboutme">About Me</a>
+          </Link>
+          <Link href="#skills">
+            <a href="#skills">Skills</a>
+          </Link>
+          <Link href="#works">
+            <a href="#works">Works</a>
+          </Link>
+          <Link href="#contact">
+            <a href="#contact">Contact Me</a>
+          </Link>
         </nav>
       </div>
     </Container>
