@@ -8,7 +8,7 @@ export const Content = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 5rem;
+  margin-top: 4rem;
 
   > h1 {
     font-size: 3rem;
@@ -46,7 +46,7 @@ export const Skill = styled.article`
       font-size: 2.5rem;
       font-weight: bold;
       color: var(--gray-100);
-      margin-top: 3rem;
+      margin-top: 1.5rem;
     }
     
     svg {

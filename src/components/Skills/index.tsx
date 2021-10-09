@@ -7,7 +7,6 @@ export const Skills = () => {
     <Container>
       <Content>
         <h1 id="skills">Skills</h1>
-        <span>Using now</span>
         <SkillContainer>
           <Skill>
             <div>
@@ -15,27 +14,20 @@ export const Skills = () => {
               <h1>NodeJS</h1>
             </div>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              At incidunt nam dignissimos explicabo illo quae vitae!
-              Modi debitis consectetur velit sed totam enim corporis
-              cupiditate ducimus aperiam illum. Doloremque, sit!
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              At incidunt nam dignissimos explicabo illo quae vitae!
+            Tenho uma experiência avançada com o back-end como criação de ambiente de desenvolvimento,
+            express, postgres, mongoDB typeorm, deploys, etc.
             </p>
           </Skill>
 
           <Skill>
             <div>
               <FaReact size={ 52 } color="#61DBFB"/>
-              <h1>ReactJS</h1>
+              <h1>ReactJS | NextJS</h1>
             </div>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              At incidunt nam dignissimos explicabo illo quae vitae!
-              Modi debitis consectetur velit sed totam enim corporis
-              cupiditate ducimus aperiam illum. Doloremque, sit!
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              At incidunt nam dignissimos explicabo illo quae vitae!
+              Minha maior experiência é com o desenvolvimento front-end,
+              projetos responsivos, mobile first, SEO,
+              deploy com CI/CD.
             </p>
           </Skill>
 
@@ -45,12 +37,8 @@ export const Skills = () => {
               <h1>React Native</h1>
             </div>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              At incidunt nam dignissimos explicabo illo quae vitae!
-              Modi debitis consectetur velit sed totam enim corporis
-              cupiditate ducimus aperiam illum. Doloremque, sit!
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              At incidunt nam dignissimos explicabo illo quae vitae!
+              Tenho uma experiência avançada  com o desenvolvimento mobile,
+              criando apps tanto para Android quanto para IOS.
             </p>
           </Skill>
         </SkillContainer>
