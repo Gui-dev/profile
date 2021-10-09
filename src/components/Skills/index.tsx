@@ -21,12 +21,6 @@ export const Skills = () => {
               cupiditate ducimus aperiam illum. Doloremque, sit!
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               At incidunt nam dignissimos explicabo illo quae vitae!
-              Modi debitis consectetur velit sed totam enim corporis
-              cupiditate ducimus aperiam illum. Doloremque, sit!
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              At incidunt nam dignissimos explicabo illo quae vitae!
-              Modi debitis consectetur velit sed totam enim corporis
-              cupiditate ducimus aperiam illum. Doloremque, sit!
             </p>
           </Skill>
 
@@ -42,12 +36,6 @@ export const Skills = () => {
               cupiditate ducimus aperiam illum. Doloremque, sit!
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               At incidunt nam dignissimos explicabo illo quae vitae!
-              Modi debitis consectetur velit sed totam enim corporis
-              cupiditate ducimus aperiam illum. Doloremque, sit!
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              At incidunt nam dignissimos explicabo illo quae vitae!
-              Modi debitis consectetur velit sed totam enim corporis
-              cupiditate ducimus aperiam illum. Doloremque, sit!
             </p>
           </Skill>
 
@@ -63,12 +51,6 @@ export const Skills = () => {
               cupiditate ducimus aperiam illum. Doloremque, sit!
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               At incidunt nam dignissimos explicabo illo quae vitae!
-              Modi debitis consectetur velit sed totam enim corporis
-              cupiditate ducimus aperiam illum. Doloremque, sit!
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              At incidunt nam dignissimos explicabo illo quae vitae!
-              Modi debitis consectetur velit sed totam enim corporis
-              cupiditate ducimus aperiam illum. Doloremque, sit!
             </p>
           </Skill>
         </SkillContainer>

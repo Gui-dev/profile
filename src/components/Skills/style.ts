@@ -8,7 +8,7 @@ export const Content = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 5rem 10%;
+  margin-top: 5rem;
 
   > h1 {
     font-size: 3rem;
@@ -21,7 +21,10 @@ export const Content = styled.div`
 `
 
 export const SkillContainer = styled.div`
-  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 100%;
 `
 
@@ -34,7 +37,6 @@ export const Skill = styled.article`
   height: 30rem;
   width: 100%;
   background-color: var(--gray-700);
-  border-radius: .4rem;
 
   > div {
     display: flex;
@@ -53,13 +55,9 @@ export const Skill = styled.article`
     }
   }
 
-
-  
-
   p {   
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 2.2rem;
-    padding: 2rem;
-    overflow-y: auto;
+    margin: 1.5rem 10%;
   }
 `
