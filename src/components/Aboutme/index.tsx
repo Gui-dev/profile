@@ -9,10 +9,11 @@ export const Aboutme = () => {
         <Info>
           <img src="https://github.com/Gui-dev.png" alt="" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Eum nostrum dignissimos neque blanditiis dolorum.
-            Debitis eveniet non mollitia quidem laboriosam expedita tempore harum,
-            itaque voluptatem atque dolore iste illum vero.
+            Sou desenvolvedor Fullstack
+            (<strong>NodeJS</strong> | <strong>ReactJS</strong> | <strong>ReactJS</strong>),
+            desenvolvendo projetos desde 2019 tanto no frontend quanto no backend.
+            Sempre atualizado com as tecnologias atuais do mercado, e sempre me aprimorando
+            a cada dia os meus conhecimentos.
           </p>
         </Info>
       </Content>
