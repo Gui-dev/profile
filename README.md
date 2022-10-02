@@ -11,8 +11,8 @@
 
 # Screens
 
-![Dark](./screens/dark.png)
-![White](./screens/white.png)
+![Dark](./.screens/dark.png)
+![White](./.screens/white.png)
 
 ## Technologies used
 
