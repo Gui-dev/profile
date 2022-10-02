@@ -10,5 +10,6 @@ module.exports = {
       burtons: 'burtons'
     }
   },
+  darkMode: 'class',
   plugins: []
 }
