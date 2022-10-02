@@ -174,6 +174,15 @@ const Home: NextPage = () => {
                 className="rounded-lg object-cover"
               />
             </div>
+
+            <div className="flex-1 basis-1/3">
+              <Image
+                src="/web10.png"
+                height={660}
+                width={1024}
+                className="rounded-lg object-cover"
+              />
+            </div>
           </div>
         </section>
       </main>
