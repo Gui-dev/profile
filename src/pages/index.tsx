@@ -35,7 +35,7 @@ const Home: NextPage = () => {
               <li>
                 <a
                   className="text-white ml-8 px-4 py-2 bg-gradient-to-r from-cyan-500 to-teal-500 border-none rounded-md"
-                  href="#"
+                  href="#resume"
                 >
                   Resume
                 </a>
@@ -132,7 +132,7 @@ const Home: NextPage = () => {
           </div>
         </section>
 
-        <section className="w-full">
+        <section className="w-full" id="resume">
           <div>
             <h1 className="text-3xl py-1 dark:text-white">Portfolio</h1>
             <p className="text-md text-gray-800 leading-8 py-2 dark:text-gray-300">
